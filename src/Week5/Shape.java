@@ -8,10 +8,6 @@ public class Shape {
 	private double lineTickness;
 	
 		
-	public Shape() {
-		
-	}
-
 	public Shape(Color lineColour, double lineTickness) {
 		
 		this.lineColour = lineColour;
