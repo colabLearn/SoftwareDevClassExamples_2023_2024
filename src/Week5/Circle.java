@@ -7,15 +7,49 @@ public class Circle {
 	private double lineTickness;  
 	private double radius; //File peculiar to circle
 	
-	
+
 	public Circle() {
-		
+		super();
 	}
 
 
-	public Circle(Color lineColour, double lineTickness, double radius) {
+	public Circle(Color lineColour,
+			   double lineTickness, 
+			   double radius) 
+	{
+		
 		this.lineColour = lineColour;
 		this.lineTickness = lineTickness;
+		this.radius = radius;
+	}
+
+
+	public Color getLineColour() {
+		return lineColour;
+	}
+
+
+	public void setLineColour(Color lineColour) {
+		this.lineColour = lineColour;
+	}
+
+
+	public double getLineTickness() {
+		return lineTickness;
+	}
+
+
+	public void setLineTickness(double lineTickness) {
+		this.lineTickness = lineTickness;
+	}
+
+
+	public double getRadius() {
+		return radius;
+	}
+
+
+	public void setRadius(double radius) {
 		this.radius = radius;
 	}
 
