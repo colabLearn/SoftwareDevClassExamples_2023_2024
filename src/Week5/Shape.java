@@ -7,7 +7,12 @@ public class Shape {
 	private Color  lineColour;      
 	private double lineTickness;
 	
+	
 		
+	public Shape() {
+		super();
+	}
+
 	public Shape(Color lineColour, double lineTickness) {
 		
 		this.lineColour = lineColour;

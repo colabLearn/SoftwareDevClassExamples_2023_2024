@@ -23,6 +23,8 @@ public class Main {
 		 System.out.println(pinkCircle.getLineColour());
 		 pinkCircle.setLineColour(Color.CYAN);
 		 System.out.println(pinkCircle.getLineColour());
+		 
+		
 	}
 	
 
