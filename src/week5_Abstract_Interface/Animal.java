@@ -9,9 +9,12 @@ abstract public class Animal {
 		this.name = name;
 	}
 	
-	public void makeSound() {
-		System.out.println("Making Sound...");
-	}
+	/*
+	 * This will force any class that extends this
+	 * abstract class must override this method and 
+	 * they define their own implementation of makeSound	
+	 */
+	public abstract void makeSound();
 
 	public String getName() {
 		return name;
