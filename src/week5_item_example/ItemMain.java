@@ -26,7 +26,9 @@ public class ItemMain {
 		
 		itemStore.addVideo(myVD1);
 		itemStore.addVideo(myVD2);
-		System.out.println("==========Display After Adding videos=========");
+		System.out.println(
+				"==========Display After Adding videos========="
+				);
 		itemStore.displayCDInStore();
 	}
 
