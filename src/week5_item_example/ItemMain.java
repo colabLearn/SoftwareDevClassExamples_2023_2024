@@ -20,8 +20,14 @@ public class ItemMain {
 		 * "The method addCD(cd) in the type itemStore is not applicable for the arguments (video)"
 		 * 
 		 */
-		itemStore.addCD(myVD1);
+		itemStore.addCD(myCD2);
 		
+		itemStore.displayCDInStore();
+		
+		itemStore.addVideo(myVD1);
+		itemStore.addVideo(myVD2);
+		System.out.println("==========Display After Adding videos=========");
+		itemStore.displayCDInStore();
 	}
 
 }
