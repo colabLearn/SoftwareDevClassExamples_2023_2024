@@ -7,4 +7,10 @@ public class Dog extends Animal{
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void makeSound() {
+		// TODO Auto-generated method stub
+		System.out.println("Woof woof!");
+	}
+
 }

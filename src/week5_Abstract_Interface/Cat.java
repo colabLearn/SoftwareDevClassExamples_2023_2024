@@ -6,6 +6,12 @@ public class Cat extends Animal {
 		super(name);
 		// TODO Auto-generated constructor stub
 	}
+
+	@Override
+	public void makeSound() {
+		// TODO Auto-generated method stub
+		System.out.println("Meow Meow");
+	}
 	
 
 }
