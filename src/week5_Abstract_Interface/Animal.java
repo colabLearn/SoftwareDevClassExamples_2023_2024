@@ -1,6 +1,7 @@
 package week5_Abstract_Interface;
 
-public class Animal {
+//add abstract to class animal means that Animal class can no longer be instantiated
+abstract public class Animal {
 	private String name;
 	
 	
