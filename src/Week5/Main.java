@@ -18,11 +18,13 @@ public class Main {
 		 
 		 Circle pinkCircle = new Circle(Color.pink,2.5, 3);
 		 
-		 System.out.println(redRect.getHeight());
-		 System.out.println(blueSquare.getLineTickness());
-		 System.out.println(pinkCircle.getLineColour());
-		 pinkCircle.setLineColour(Color.CYAN);
-		 System.out.println(pinkCircle.getLineColour());
+//		 System.out.println(redRect.getHeight());
+//		 System.out.println(blueSquare.getLineTickness());
+//		 System.out.println(pinkCircle.getLineColour());
+//		 pinkCircle.setLineColour(Color.CYAN);
+//		 System.out.println(pinkCircle.getLineColour());
+		 
+		 System.out.println(pinkCircle);
 		 
 		
 	}
