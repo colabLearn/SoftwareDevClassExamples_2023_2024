@@ -12,7 +12,12 @@ public class ItemMain {
 		
 		itemStore.addCD(myCD1);
 		
-		//itemStore.addCD(myVD1);
+		
+		/*
+		 * This throw a compile time error:
+		 * "The method addCD(cd) in the type itemStore is not applicable for the argument (video)"
+		 */
+		itemStore.addCD(myVD1);
 	}
 
 }
