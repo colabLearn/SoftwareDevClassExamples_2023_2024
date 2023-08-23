@@ -13,13 +13,12 @@ public class itemStore {
 	}
 	
 	public static void displayCDInStore() {
-		System.out.format("%-10s | %-10s", "Name", "Length");
+		System.out.printf("%-8s | %-12s | %-8s \n", "Title", "Artist Name", "Year");
 		System.out.println("==============================");
-		itemStore.forEach(i ->{
-			int SN = 1;
-			System.out.format("%-10s | %d%n", SN, i);
-			SN++;
-		});
+		for(cd i: itemStore) {
+			System.out.printf("%-8s | %-12s | %-8s \n", i.getTitle(), i.getArtist(), i.getDate());
+		}
+		
 		
 	}
 	

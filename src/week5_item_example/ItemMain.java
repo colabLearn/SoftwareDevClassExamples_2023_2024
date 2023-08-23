@@ -10,14 +10,8 @@ public class ItemMain {
 		video myVD1 = new video("kkk", 60, "John", "2003", "not bad");
 		video myVD2 = new video("ggg", 75, "Ryno", "2013", "fine");
 		
-		itemStore.addCD(myCD1);
 		
 		
-		/*
-		 * This throw a compile time error:
-		 * "The method addCD(cd) in the type itemStore is not applicable for the argument (video)"
-		 */
-		itemStore.addCD(myVD1);
 	}
 
 }
