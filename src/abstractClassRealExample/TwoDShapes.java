@@ -1,21 +1,21 @@
 package abstractClassRealExample;
 
-public abstract class TowDShapes {
+public abstract class TwoDShapes {
 	//Common attributes
 	protected String name;
 
-	public TowDShapes(String name) {
+	public TwoDShapes(String name) {
 		super();
 		this.name = name;
 	}
 	
 	abstract double calArea();
-	abstract double calVolume();
+	abstract double calPerimeter();
 	
 	public void shapeInfo() {
 		System.out.println("Shape: " + this.name);
 		System.out.println("Area: " + calArea());
-		System.out.println("Volume: " + calVolume());
+		System.out.println("Volume: " + calPerimeter());
 	}
 	
 }
