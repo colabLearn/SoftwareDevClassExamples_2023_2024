@@ -15,7 +15,7 @@ public abstract class TwoDShapes {
 	public void shapeInfo() {
 		System.out.println("Shape: " + this.name);
 		System.out.println("Area: " + calArea());
-		System.out.println("Volume: " + calPerimeter());
+		System.out.println("Perimeter: " + calPerimeter());
 	}
 	
 }

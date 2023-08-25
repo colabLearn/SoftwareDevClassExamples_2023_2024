@@ -2,11 +2,11 @@ package abstractClassRealExample;
 
 public class Circle extends TwoDShapes{
 	private static double PI = 3.142;
-	private int radius;
+	private double  radius;
 	
 	
 
-	public Circle(String name, int radius) {
+	public Circle(String name, double radius) {
 		super(name);
 		this.radius = radius;
 	}
