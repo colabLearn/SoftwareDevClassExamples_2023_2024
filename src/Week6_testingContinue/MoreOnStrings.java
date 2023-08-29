@@ -7,6 +7,7 @@ public class MoreOnStrings {
 		String myName2 = "Tunji";
 		String myName3 = new String("Tunji");
 		String myName4 = "Tunji";
+		myName = "Alex";
 	
 		System.out.println(myName);
 		System.out.println(myName2);
